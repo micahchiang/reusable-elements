@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid blue;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.ball {
+    height: 75px;
+    width: 75px;
+    border: 1px solid goldenrod;
+    background: goldenrod;
+    border-radius: 100px;
+    transition: 
+        transform 1s .25s cubic-bezier(0.65, 0.05, 0.36, 1.51),
+        background 1s 1s;
+}
+
+.move {
+    transform: translateX(420px);
+    background: red;
+}
